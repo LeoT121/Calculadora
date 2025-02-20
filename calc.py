@@ -1,5 +1,10 @@
 def sumar():
-    x, y
+    x = 0
+    y = 0
+    input(x)
+    input(y)
+    res = x + y
+    print(res)
 
     
 def restar():
