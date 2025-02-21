@@ -27,7 +27,10 @@ def dividir():
     print("Resultado de la division: ", res)
 
 def potencia():
-    x, y = 0
+    x = float(input("Ingresa el número base: "))
+    y = float(input("Ingresa el exponente: "))
+    resultado = pow(x, y)
+    print(f"El resultado de {x} elevado a la potencia de {y} es: {resultado}")
 
 def raiz():
     print("Ingrese el número a sacar raíz cuadrada:")
@@ -36,7 +39,6 @@ def raiz():
     print(f"La raíz cuadrada de {x} es:{raiz}")
 
 
-f = 1
 while f == 1:
     print("Menu de calculadora")
     print("1. Suma")
