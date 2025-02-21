@@ -13,7 +13,10 @@ def restar():
     print(f"El resultado de la resta es: {resta}")
 
 def multiplicar():
-    x, y = 0
+    num1 = float(input("Ingresa el primer número: "))
+    num2 = float(input("Ingresa el segundo número: "))
+    resultado = num1 * num2
+    print(f"El resultado de la multiplicación es: {resultado}")
 
 def dividir():
     x, y = 0
@@ -53,3 +56,6 @@ while f == 1:
         raiz()
     elif(opcion == 7):
         f = 0
+    else:
+        print("Opcion invalida")
+
