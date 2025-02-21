@@ -7,19 +7,23 @@ def sumar():
 
     
 def restar():
-    x, y
+    x, y = 0
 
 def multiplicar():
-    x, y
+    x, y = 0
 
 def dividir():
-    x, y
+    x, y = 0
 
 def potencia():
-    x, y
+    x, y = 0
 
 def raiz():
-    x, y
+    print("Ingrese el número a sacar raíz cuadrada:")
+    x = float(input())
+    raiz = pow(x, 0.5)
+    print(f"La raíz cuadrada de {x} es:{raiz}")
+
 
 f = 1
 while f == 1:
