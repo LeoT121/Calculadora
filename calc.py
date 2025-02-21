@@ -7,7 +7,10 @@ def sumar():
 
     
 def restar():
-    x, y = 0
+    x = float(input("Ingresa el primer número: "))
+    y = float(input("Ingresa el segundo número: "))
+    resta = x - y
+    print(f"El resultado de la resta es: {resta}")
 
 def multiplicar():
     x, y = 0
@@ -50,4 +53,3 @@ while f == 1:
         raiz()
     elif(opcion == 7):
         f = 0
-    
