@@ -1,15 +1,30 @@
 def sumar():
-    x, y
+    x = float(input("Ingresa el primer numero\n"))
+    y = float(input("Ingresa el segundo numero\n"))
+    res = x + y
+    print("El resultado de la suma es: ")
+    print(res)
 
     
 def restar():
-    x, y
+    x = float(input("Ingresa el primer número: "))
+    y = float(input("Ingresa el segundo número: "))
+    resta = x - y
+    print(f"El resultado de la resta es: {resta}")
 
 def multiplicar():
-    x, y
+    num1 = float(input("Ingresa el primer número: "))
+    num2 = float(input("Ingresa el segundo número: "))
+    resultado = num1 * num2
+    print(f"El resultado de la multiplicación es: {resultado}")
 
 def dividir():
-    x, y
+    x = float(input("Ingresa el primer numero: "))
+    y = float(input("Ingresa el segundo numero: "))
+    
+    res = x/y;
+    
+    print("Resultado de la division: ", res)
 
 def potencia():
     x = float(input("Ingresa el número base: "))
@@ -17,9 +32,12 @@ def potencia():
     resultado = pow(x, y)
     print(f"El resultado de {x} elevado a la potencia de {y} es: {resultado}")
 
-
 def raiz():
-    x, y
+    print("Ingrese el número a sacar raíz cuadrada:")
+    x = float(input())
+    raiz = pow(x, 0.5)
+    print(f"La raíz cuadrada de {x} es:{raiz}")
+
 
 while f == 1:
     print("Menu de calculadora")
