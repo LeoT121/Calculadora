@@ -12,14 +12,16 @@ def dividir():
     x, y
 
 def potencia():
-    x, y
+    x = float(input("Ingresa el número base: "))
+    y = float(input("Ingresa el exponente: "))
+    resultado = pow(x, y)
+    print(f"El resultado de {x} elevado a la potencia de {y} es: {resultado}")
+
 
 def raiz():
     x, y
 
-f = 1
 while f == 1:
-    opcion = 1
     print("Menu de calculadora")
     print("1. Suma")
     print("2. Resta")
@@ -28,7 +30,7 @@ while f == 1:
     print("5. Potencia")
     print("6. Raiz")
     print("7. Salir")
-    input(opcion)
+    opcion = int(input("ingresa la opcion\n"))
     if(opcion == 1):
         sumar()
     elif(opcion == 2):
@@ -41,8 +43,7 @@ while f == 1:
         potencia()
     elif(opcion == 6):
         raiz()
-    elif(opcion == 6):
+    elif(opcion == 7):
         f = 0
     else:
         print("Opcion invalida")
-    
