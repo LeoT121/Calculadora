@@ -1,6 +1,5 @@
 def sumar():
     x, y
-
     
 def restar():
     x, y
@@ -9,7 +8,12 @@ def multiplicar():
     x, y
 
 def dividir():
-    x, y
+    x = float(input("Ingresa el primer numero: "))
+    y = float(input("Ingresa el segundo numero: "))
+    
+    res = x/y;
+    
+    print("Resultado de la division: ", res)
 
 def potencia():
     x, y
