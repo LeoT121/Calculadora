@@ -1,9 +1,16 @@
 def sumar():
-    x, y
+    x = float(input("Ingresa el primer numero\n"))
+    y = float(input("Ingresa el segundo numero\n"))
+    res = x + y
+    print("El resultado de la suma es: ")
+    print(res)
 
     
 def restar():
-    x, y
+    x = float(input("Ingresa el primer número: "))
+    y = float(input("Ingresa el segundo número: "))
+    resta = x - y
+    print(f"El resultado de la resta es: {resta}")
 
 def multiplicar():
     num1 = float(input("Ingresa el primer número: "))
@@ -12,17 +19,20 @@ def multiplicar():
     print(f"El resultado de la multiplicación es: {resultado}")
 
 def dividir():
-    x, y
+    x, y = 0
 
 def potencia():
-    x, y
+    x, y = 0
 
 def raiz():
-    x, y
+    print("Ingrese el número a sacar raíz cuadrada:")
+    x = float(input())
+    raiz = pow(x, 0.5)
+    print(f"La raíz cuadrada de {x} es:{raiz}")
+
 
 f = 1
 while f == 1:
-    opcion = 1
     print("Menu de calculadora")
     print("1. Suma")
     print("2. Resta")
@@ -31,7 +41,7 @@ while f == 1:
     print("5. Potencia")
     print("6. Raiz")
     print("7. Salir")
-    input(opcion)
+    opcion = int(input("ingresa la opcion\n"))
     if(opcion == 1):
         sumar()
     elif(opcion == 2):
@@ -44,8 +54,8 @@ while f == 1:
         potencia()
     elif(opcion == 6):
         raiz()
-    elif(opcion == 6):
+    elif(opcion == 7):
         f = 0
     else:
         print("Opcion invalida")
-    
+
