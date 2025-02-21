@@ -19,7 +19,12 @@ def multiplicar():
     print(f"El resultado de la multiplicación es: {resultado}")
 
 def dividir():
-    x, y = 0
+    x = float(input("Ingresa el primer numero: "))
+    y = float(input("Ingresa el segundo numero: "))
+    
+    res = x/y;
+    
+    print("Resultado de la division: ", res)
 
 def potencia():
     x, y = 0
@@ -58,4 +63,3 @@ while f == 1:
         f = 0
     else:
         print("Opcion invalida")
-
